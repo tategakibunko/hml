@@ -162,7 +162,7 @@ parseMachiKokushi pais =
 
 parseMachi :: [Pai] -> [Machi]
 parseMachi pais =
-    (parseMachiNormal pais) ++ (parseMachiChitoitsu pais) ++ (parseMachiKokushi pais)
+    L.nub $ (parseMachiNormal pais) ++ (parseMachiChitoitsu pais) ++ (parseMachiKokushi pais)
 
 -- 1 han
 isTumoAgari :: NakiMentsu -> FetchType -> Bool
