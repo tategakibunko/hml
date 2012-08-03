@@ -1,3 +1,6 @@
+-- Copyright (c) 2012 - Watanabe Masaki
+-- License: see LICENSE
+
 module Mahjong.Pai (
  rotohai,
  yaochuhai,
